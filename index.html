@@ -11,7 +11,12 @@
                 justify-content: center;
                 background-color: beige;
                 flex-direction: column;
-                margin: 10px;
+                padding: 20px;
+            }
+            .auto-and-pic{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
             }
             .autobiography{
                 margin: 10px;
@@ -19,13 +24,13 @@
             }
             .container1{
                 font-family: Arial;
-                display:flex;
+                display: flex;
+                align-content: center;
                 margin: 10px
             }
             .skills{
-
                 margin: 10px;
-                padding: 10px;;
+                padding: 10px;
                 background-color: tan;
             }
             .languages{
@@ -38,40 +43,48 @@
                 font-family: Arial;
                 margin: 10px;
             }
+            .edu-background{
+                font-family: Arial;
+                margin: 10px;
+            }
 
         </style>
     </head>
     <body>
             <div class="flex-container">
-                <div class = "autobiography">
-                    <img src ="">
-                    <p style="font-weight: bold;">AUTOBIOGRAPHY</p>
-                    <p style="justify-content: center;">My name is Trisha Elaine M. Banes, a BS Computer Science student from 
-                    University of the Philippines-Los Banos. My interest with web programming started when 
-                    HTML was introduced to me in high school at 7th grade in our Computer subject. It is 
-                    what pushed me to  pursue a degree program in Computer Science. By combining passion,
-                    interest, and skills, I am able to manage and create webpages that are fit for clients
-                    and their visions for their websites.
-                    </p>
+                <div class="auto-and-pic">
+                    <div>
+                        <img src="tmbanespic.jpg" style="height: 200px;">
+                    </div>
+                    <div class = "autobiography">
+                        <p style="font-weight: bold;">ABOUT ME</p>
+                        <p style="justify-content: center;">My name is Trisha Elaine M. Banes, a BS Computer Science student from 
+                        University of the Philippines-Los Banos. My interest with web programming started when 
+                        HTML was introduced to me in high school at 7th grade in our Computer subject. It is 
+                        what pushed me to  pursue a degree program in Computer Science. By combining passion,
+                        interest, and skills, I am able to manage and create webpages that are fit for clients
+                        and their visions for their websites.
+                        </p>
+                    </div>
                 </div>
-
                 
                 <div class="container1">
                     <div class="skills">
-                        <br>Skills<br>
-                        <li>Creating websites</li>
-                        <li>Managing websites</li>
-                        <li>Designing websites</li>
+                        <a style="font-weight: bolder; font-size: larger;">SKILLS</a>
+                        <span class="languages" style="text-indent: 20px">
+                            <br><a style="font-style: oblique; font-size: medium;">Programing Languages Familiar with:</a><br>
+                            <li>HTML and CSS</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>Java</li>
+                        </span>
+                        <br><a style="font-style: oblique; font-size: medium;">Other Skills: </a><br>
+                        <li>Creating, managing, and designing websites</li>
+                        <li>Creative</li>
+                        <li>Resourceful</li>
                     </div>
                         
 
-                    <div class="languages">
-                        <br>Programing Languages Familiar with:<br>
-                        <li>HTML and CSS</li>
-                        <li>Python</li>
-                        <li>C</li>
-                        <li>Java</li>
-                    </div>
                         
                     <div class="projects">
                         <br>Previous Projects:<br>
@@ -85,6 +98,11 @@
                     <br>Contact Information:
                     <li>Email: tmbanes@up.edu.ph</li>
                     <li>Phone number: 09xx-xxxx-xxxx</li> 
+                </div>
+                <div class="edu-background">
+                    <br>Educational Background
+                    <li>JHS & SHS: St. Scholastica's Academy-Marikina</li>
+                    <li>College: University of the Philippines-Los Banos</li>
                 </div>
                    
             </div>
