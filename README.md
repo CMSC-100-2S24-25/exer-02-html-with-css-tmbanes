@@ -2,4 +2,17 @@
 
 Name: BAÑES, Trisha Elaine M.
 Degree Program: BS Computer Science
-Website link:
+Student No.: 2023-03451
+CMSC 100- C1L
+
+February 12, 2025
+
+Website link: https://cmsc-100-2s24-25.github.io/exer-02-html-with-css-tmbanes/
+
+Steps on how to create a Githubpage:
+1. Create or join a repository on GitHub
+2. Clone the repository on your local computer/laptop
+3. Add and push the html file to the GitHub repository
+4. Go to GitHub Pages under the repository settings and select which branch that will be used to show your html file
+
+Key takeaway: Matrabaho po mag code pero masaya naman mo mag-design :D
