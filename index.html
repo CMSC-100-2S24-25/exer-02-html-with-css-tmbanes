@@ -12,18 +12,18 @@
                 background-color: beige;
                 flex-direction: column;
                 padding: 20px;
+                font-family: Arial, Helvetica, sans-serif;
             }
             .auto-and-pic{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
+                margin: 10px;
             }
             .autobiography{
                 margin: 10px;
-                font-family: Arial;
             }
             .container1{
-                font-family: Arial;
                 display: flex;
                 align-content: center;
                 margin: 10px
@@ -31,20 +31,15 @@
             .skills{
                 margin: 10px;
                 padding: 10px;
-                background-color: tan;
-            }
-            .languages{
-
+                background-color: darkkhaki;
             }
             .projects{
                 margin: 10px;
             }
             .contact-information{
-                font-family: Arial;
                 margin: 10px;
             }
             .edu-background{
-                font-family: Arial;
                 margin: 10px;
             }
 
@@ -52,6 +47,7 @@
     </head>
     <body>
             <div class="flex-container">
+                <div style="background-color: darkslategray; height: 30px;"></div>
                 <div class="auto-and-pic">
                     <div>
                         <img src="tmbanespic.jpg" style="height: 200px;">
@@ -67,7 +63,7 @@
                         </p>
                     </div>
                 </div>
-                
+                <div style="background-color: darkslategrey; height: 5px;"></div>
                 <div class="container1">
                     <div class="skills">
                         <a style="font-weight: bolder; font-size: larger;">SKILLS</a>
@@ -84,27 +80,33 @@
                         <li>Resourceful</li>
                     </div>
                         
-
-                        
-                    <div class="projects">
-                        <br>Previous Projects:<br>
+                    <div display="flex"; align-items="center">
+                       <div class="projects">
+                        <a style="font-weight: bolder; font-size: larger;"> Previous Projects:</a><br>
                         <li>Order Form for Catering Services</li>
-                        <li>1v1 Multiplayer Game</li>
-                        <li></li>
+                        - a website that asks for input from a customer to compute the final
+                        cost of the catering reservation</a> 
+                        <br><br>
+                        <li>Cat Out!</li>
+                        - a 1v1 multiplayer game programmed in Java.
                     </div>
+
+                        <div class="edu-background">
+                            <a style="font-weight: bolder; font-size: larger;">Educational Background</a><br>
+                            <li>JHS & SHS: St. Scholastica's Academy-Marikina</li>
+                            <li>College: University of the Philippines-Los Banos</li>
+                        </div> 
+                    </div>
+                    
                 </div>
 
+
                 <div class="contact-information">
-                    <br>Contact Information:
+                    <br>Contact me at:
                     <li>Email: tmbanes@up.edu.ph</li>
                     <li>Phone number: 09xx-xxxx-xxxx</li> 
                 </div>
-                <div class="edu-background">
-                    <br>Educational Background
-                    <li>JHS & SHS: St. Scholastica's Academy-Marikina</li>
-                    <li>College: University of the Philippines-Los Banos</li>
-                </div>
-                   
+               
             </div>
             
     </body>
