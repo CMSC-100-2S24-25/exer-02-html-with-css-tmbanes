@@ -14,7 +14,14 @@
                 padding: 20px;
                 font-family: Arial, Helvetica, sans-serif;
             }
-            .auto-and-pic{
+            .header-bar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: darkslategrey;
+                height: 50px;
+            }
+            .container1{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
@@ -23,20 +30,17 @@
             .autobiography{
                 margin: 10px;
             }
-            .container1{
+            .container2{
                 display: flex;
                 align-content: center;
                 margin: 10px
             }
-            .skills{
+            .container3{
                 margin: 10px;
                 padding: 10px;
                 background-color: darkkhaki;
             }
-            .projects{
-                margin: 10px;
-            }
-            .edu-background{
+            .list{
                 margin: 10px;
             }
             .contact-information{
@@ -47,14 +51,17 @@
     </head>
     <body>
             <div class="flex-container">
-                <div style="background-color: darkslategray; height: 30px;"></div>
-                <div class="auto-and-pic">
+                <div class="header-bar">
+                    <a style="color: whitesmoke; font-weight: bolder; font-size: xx-large;">MY PORTFOLIO</a>
+                </div>
+                <div class="container1">
                     <div>
                         <img src="tmbanespic.jpg" style="height: 200px;">
                     </div>
                     <div class = "autobiography">
                         <p style="font-weight: bold; font-size: x-large;">ABOUT ME</p>
-                        <p style="justify-content: center; ">My name is Trisha Elaine M. Banes, a BS Computer Science student from 
+                        <p>
+                        My name is <a style="font-weight: bold;">Trisha Elaine M. Banes</a>, a BS Computer Science student from 
                         University of the Philippines-Los Banos. My interest with web programming started when 
                         HTML was introduced to me in high school at 7th grade in our Computer subject. It is 
                         what pushed me to  pursue a degree program in Computer Science. By combining passion,
@@ -64,13 +71,12 @@
                     </div>
                 </div>
                 <div style="background-color: darkslategrey; height: 5px;"></div>
-                <div class="container1">
-                    <div class="skills">
-
+                <div class="container2">
+                    <div class="container3">
                         <img src="computer icon.png" width="20"> <!-- source: https://commons.wikimedia.org/wiki/File:Circle-icons-computer.svg -->
                         <a style="font-weight: bolder; font-size: larger;">SKILLS</a>
-                        <span class="languages" style="text-indent: 20px">
-                            <br><a style="font-style: oblique; font-size: medium;">Programing Languages Familiar with:</a><br>
+                        <span class="list" style="text-indent: 20px">
+                            <br><a style="font-style: oblique; font-size: medium;">Languages Familiar with:</a><br>
                             <li>HTML and CSS</li>
                             <li>Python</li>
                             <li>C</li>
@@ -85,7 +91,7 @@
                     <div style="background-color: darkolivegreen; width: 5px;"></div>
                         
                     <div style="display: flex; flex-direction: column;">
-                       <div class="projects">
+                       <div class="list">
                             <a style="font-weight: bolder; font-size: larger;"> Previous Projects:</a><br>
                             <li>Order Form for Catering Services</li>
                             - a website that asks for input from a customer to compute the final
@@ -95,7 +101,7 @@
                             - a 1v1 multiplayer game programmed in Java.
                         </div>
 
-                        <div class="edu-background">
+                        <div class="list">
                             <a style="font-weight: bolder; font-size: larger;">Educational Background</a><br>
                             <li>JHS & SHS: St. Scholastica's Academy-Marikina</li>
                             <li>College: University of the Philippines-Los Banos</li>
